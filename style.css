@@ -1,0 +1,85 @@
+body {
+background-color: lightgreen;
+color: black;
+font-family:Franklin Gothic, sans-serif;
+text-align: center;
+}
+h1{
+	
+	color: darkgreen;
+}
+
+h2{
+	font-family: Proxima nova;
+		color: seagreen;
+}
+h3{
+	font-family: Playfair;
+	color: limegreen;
+}
+/*Custom form*/
+.container {
+width: 700px;
+margin: 40px auto;
+}
+@media (max-width: 760px ) {
+.container {
+	width: 600px;
+}
+
+}
+@media (max-width: 500px ) {
+.container {
+	width: 400px;
+}
+
+}
+.btn-blue {
+background-color: rgb(177, 208, 224);
+color: white;
+padding: 15px 20px;
+border-radius: 4px;
+}
+
+
+.card-white {
+background-color: rgb(230, 230, 230);
+padding: 27px;
+width: 400px;
+margin: 25px auto;
+border-radius: 4px;
+box-shadow: 0 10px 30px rgba(0, 0, 0, 1.0);
+}
+
+.img { 
+border-radius: 50%;
+height: 50%;
+ }
+
+ .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: blue;
+  color: white;
+}
+
+ .fa-instagram {
+  background: pink;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
